@@ -1,0 +1,67 @@
+# macOS and editors
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Data and generated artifacts
+data/
+results*/
+outputs/
+logs/
+checkpoints/
+runs/
+papers/
+translation*/
+
+# Dataset, model, archive, and manuscript files
+*.csv
+*.tsv
+*.xls
+*.xlsx
+*.parquet
+*.feather
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.tar
+*.tar.gz
+*.doc
+*.docx
+*.pdf
+
+# Geospatial and raster/vector outputs
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.geojson
+*.gpkg
+*.tif
+*.tiff
+*.png
+*.jpg
+*.jpeg
+*.emf
+*.svg
